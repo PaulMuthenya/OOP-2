@@ -1,0 +1,62 @@
+a="banana"
+b="orange"
+print(a+b)
+print(a*3)
+print("this is anne's spam")
+
+a="5"
+b="10"
+c=a+b
+print(c)
+
+s="banana cake"
+print(s[3:5])
+print(s[3:7])
+print(s[2:4])
+print(s[:])
+print(s[:5])
+print(s[-3:-5])
+print(s[1:])
+print(s[::2])
+print(len(s))
+
+x=20
+y=75
+print("the sum of %d and %d is %d" % (x,y,x + y))
+
+x=20.337384
+y=75.769343
+print("the sum of %f and %f is %f" % (x,y,x + y))
+
+x="python"
+y="programming"
+print("the sum of %s and %s is %s" % (x,y,x + y))
+
+x="evolution"
+x=x.upper()
+print(x)
+
+x="evolution"
+x=x.lower()
+print(x)
+
+x="evolution"
+x=x.replace( 'n','s')
+print(x)
+
+x="sport bike, sport car, sport shoe, sport outfit"
+x=x.count("sport")
+print(x)
+
+x="i love rugby and rugby drills"
+x=x.find("r")
+print(x)
+
+x="motifthedon"
+x=x.title()
+print(x)
+
+x="MOTIFTHEDON"
+x=x.swapcase()
+print(x)
+

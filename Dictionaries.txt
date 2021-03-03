@@ -1,0 +1,82 @@
+car ={
+  "brand":"Ford",
+  "model":"Mustang",
+  "year":1964
+}
+//checking if aspecified key exists
+if "year"in car:
+  print("yes,'year is one of the keys in the distinct dictionary'")
+
+//changing dictionary items
+
+car ={
+  "brand":"Ford",
+  "model":"Mustang",
+  "year":1964
+}
+
+car["model"]="shelby"
+print(car)
+
+
+//Adding to dictionary
+car ={
+"brand":"Ford",
+"model":"Mustang",
+"year":1964
+
+}
+car["color"]="red"
+print(car)
+
+//Removing items from dictionary
+
+car ={
+"brand":"Ford",
+"model":"Mustang",
+"year":1964
+
+}
+     //deleting dictionary items
+car.pop("model")
+print(car)
+car.popitem()
+print(car)
+del car["brand"]
+print(car)
+car.clear()
+
+  //looping through a dictionary
+
+car ={
+"brand":"Ford",
+"model":"Mustang",
+"year":1964
+
+}
+
+for x in car:
+  print(x)
+  for x in car.values():
+    print(x)
+    for x in car.keys():
+      print(x)
+      for x, y in car.items():
+        print(x,y)
+
+  //Nested dictionary
+
+myfamily={
+"child1":{
+  "name":"Maldini",
+  "year":1995
+},
+"child2":{
+ "name":"Matata",
+ "year":1997
+},
+"child3":{
+"name":"Ndechu",
+"year":1992
+}
+}

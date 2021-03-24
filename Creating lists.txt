@@ -1,0 +1,66 @@
+cars= ["bugatti" , "porche" , "rangerover" , "buick"]
+print(cars)
+
+
+engines=list(("rollsroyce x26","biturbo","diesel v12"))
+print(engines)
+
+list2=[1,2,3,4,5,["mango","orange","avocado"],[True,false]
+print(list2)
+
+Access list items
+
+cars= ["bugatti" , "porche" , "rangerover" , "buick", "landrover","shelby"]
+print(cars[1])
+print(cars[2])
+print(cars[3])
+print(cars[5])
+
+list2=[1,2,3,4,5["mango","orange","avocado"],["True","false"]
+print(list2[0])#1
+print(list2[1])#2
+print(list2[2])#3
+print(list2[3:-1])#4
+
+#checking if an item exists
+
+fruits=["banana","mango","orange","cherry"]
+if "mango" in fruits:
+  print("yes, mango is in the fruit list")
+
+#change list items
+
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+fruits[1]="lemon"#changes the second item
+fruits[3:1]=["watermelon"]#changes the second and third item
+fruits.insert(2,"passion")#method insert() adds an item at the specified index
+
+print(fruits)
+
+#Adding items on list
+
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+fruits.append("banana")
+print(fruits)
+
+#Adding items on list
+
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+fruits.append("banana")
+fruits.extend("orange")
+fruits.remove("apple")
+fruits.pop("cherry"
+print(fruits)
+
+#loop through a list
+
+#print all items on a list one by one
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+for x in fruits:
+  print(x)
+
+#range() and len are used to create suitable iterable
+
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+for i in range(len(fruits)) :
+  print(i)
